@@ -1,15 +1,19 @@
 {
-  "name": "deploy-env",
-  "version": "1.0.1",
-  "description": "Deploy env",
+  "name": "@krissself/deploy-env",
+  "version": "1.0.0",
+  "description": "Deploy env By ConfigFile",
+  "author": "kriss",
   "main": "./index.js",
   "bin": "./bin/deploy-env.js",
-  "author": "kriss",
+  "files": [
+    "index.js",
+    "bin/*.js"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/krissss/deploy-env"
+    "url": "https://github.com/krissss/deploy-env-by-config"
   },
-  "homepage": "https://github.com/krissss/deploy-env",
+  "homepage": "https://github.com/krissss/deploy-env-by-config",
   "license": "ISC",
   "dependencies": {
     "commander": "^8.2.0",
