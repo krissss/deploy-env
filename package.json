@@ -4,13 +4,18 @@
   "description": "Deploy env",
   "main": "./index.js",
   "bin": "./bin/deploy-env.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "kriss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krissss/deploy-env"
+  },
+  "homepage": "https://github.com/krissss/deploy-env",
   "license": "ISC",
   "dependencies": {
     "commander": "^8.2.0",
     "fs-extra": "^10.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
