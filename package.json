@@ -1,0 +1,16 @@
+{
+  "name": "deploy-env",
+  "version": "1.0.0",
+  "description": "Deploy env",
+  "main": "./index.js",
+  "bin": "./bin/deploy-env.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kriss",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "fs-extra": "^10.0.0"
+  }
+}
