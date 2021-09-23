@@ -1,8 +1,8 @@
 # Deploy Env By Config
 
-1. in project root, create an `environments` dir
+## 1. in project root, create an `environments` dir
 
-2. make a config file `config.js` in `environments` dir
+## 2. make a config file `config.js` in `environments` dir
 
 ```js
 const path = require('path')
@@ -17,11 +17,13 @@ module.exports = {
 }
 ```
 
-3. put your envs files to dir under `environments`
+## 3. put your envs files to dir under `environments`
 
 dir like:
 
-- root
+```
+- projectRoot
+  - otherFiles
   - environments
     - dev
       a.xx
@@ -33,7 +35,12 @@ dir like:
       a.xx
       b.xx
     - config.js
+```
 
-4. open cmd and exec `deploy-env -e <env>`(replace <env> with your `envs` key)
+## 4. open cmd and exec command
+
+command: `npx deploy-env -e <env> -c ./environments/config.js`
+
+replace <env> with your `envs` key
 
 files in `<env>` dir will be copy to `deploy_path`
